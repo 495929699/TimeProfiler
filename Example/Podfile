@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TimeProfiler_Example' do
+  pod 'TimeProfiler', :path => '../'
+
+  target 'TimeProfiler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
