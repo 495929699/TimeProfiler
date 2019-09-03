@@ -327,12 +327,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TimeProfiler_Example/Pods-TimeProfiler_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TimeProfiler/TimeProfiler.framework",
+				"${BUILT_PRODUCTS_DIR}/fishhook/fishhook.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TimeProfiler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fishhook.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

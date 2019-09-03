@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TimeProfiler'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TimeProfiler.'
+  s.summary          = '方法耗时检查工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,19 +24,19 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/495929699g@gmail.com/TimeProfiler'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '495929699g@gmail.com' => '495929699g@gmail.com' }
+  s.author           = { 'rongheng' => '495929699g@gmail.com' }
   s.source           = { :git => 'https://github.com/495929699g@gmail.com/TimeProfiler.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TimeProfiler/Classes/**/*'
+  s.source_files = 'TimeProfiler/Classes/**/*.{h,m,c}'
   
-  # s.resource_bundles = {
-  #   'TimeProfiler' => ['TimeProfiler/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'TimeProfiler' => ['TimeProfiler/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'fishhook'
 end

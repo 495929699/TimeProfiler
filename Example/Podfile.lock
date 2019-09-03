@@ -1,0 +1,23 @@
+PODS:
+  - fishhook (0.2)
+  - TimeProfiler (0.1.0):
+    - fishhook
+
+DEPENDENCIES:
+  - TimeProfiler (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - fishhook
+
+EXTERNAL SOURCES:
+  TimeProfiler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  TimeProfiler: 3b9402b5004bb722eaf4631d6ec48ef0f60607af
+
+PODFILE CHECKSUM: 57d6392c03320c8806dceb3304205270193e5d9d
+
+COCOAPODS: 1.6.2
